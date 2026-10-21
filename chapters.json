@@ -37,7 +37,7 @@
   "title_hi": "चुम्बकत्व एवं द्रव्य",
   "icon": "🧭",
   "position": 5,
-  "published": false
+  "published": true
  },
  {
   "id": 6,
@@ -45,7 +45,7 @@
   "title_hi": "वैद्युत चुम्बकीय प्रेरण",
   "icon": "🌀",
   "position": 6,
-  "published": false
+  "published": true
  },
  {
   "id": 7,
@@ -53,7 +53,7 @@
   "title_hi": "प्रत्यावर्ती धारा",
   "icon": "〰️",
   "position": 7,
-  "published": false
+  "published": true
  },
  {
   "id": 8,
