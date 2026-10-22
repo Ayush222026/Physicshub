@@ -115,7 +115,7 @@ function home(scroll){
   const pub = chapters.filter(c=>c.published), total = pub.length||chapters.length;
   const cnt = done.filter(id=>chapters.some(c=>c.id===id)).length, pct = Math.round(100*cnt/total);
   app.innerHTML = `<section class="hero"><div class="wrap"><h1>Class 12 Physics – Chapter-wise Solutions</h1>
-  <p>Welcome! Pick a chapter and follow every solution step by step. Bookmark questions, mark chapters done and revise anywhere.</p>
+  <p>Welcome! Pick a chapter and follow every solution step by step.</p>
   <div class="bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
   <p>${cnt} of ${total} chapters completed</p></div></section>
   <input class="search" id="cs" type="search" placeholder="Search chapters (e.g. optics, magnetism)" aria-label="Search chapters">
